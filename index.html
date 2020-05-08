@@ -8,9 +8,10 @@
 </head>
 <body>
     <body>
-        <section class="step-wrapper container">
+        <section class="step-wrapper ">
+            <div class="container">
           <h2 class="steps-title">Lorem ipsum dolor sit amet</h2>
-          <h3 class="class=steps-subtitle">
+          <h3 class="steps-subtitle">
             Architecto beatae vitae dicta sunt explicabo. Nemo enim
           </h3>
           <ul class="steps">
@@ -36,10 +37,64 @@
               </p>
             </li>
           </ul>
+        </div>
         </section>
         <form class="section-form" action="#" method="GET">
+            <div class="container">
             <div class="input-wrapper">
-                <ul class="input-list">
+                <p class="inpur-wrapper-text">Excepteur sint cupidatat non proident?</p>
+                <form action="">
+                    <div class="input-list">
+                        <div class="input-list-name">
+                      <input class="input-item" type="text" name="name" required placeholder="First Name">
+                      <input class="input-item" type="text" name="last name" required placeholder="Last Name">
+                      <input class="input-item" type="email" name="email" required placeholder="Email Adress">
+                    </div>
+                      <div class="input-list__left-side">
+                          <div class="telefon">
+                              <div class="telefon-list">
+                        <select class="telefon-item" id="telefon">
+                          <option value="ukraine">Ukraine</option>
+                          <option value="usa">USA</option>
+                          <option value="russia">Russia</option>
+                          <option value="moldova">Moldova</option>
+                        </select>
+                        <input class="input-item telefon-input" type="text" name="subject" placeholder="+38">
+                    </div>
+                        <label class="start" for="start">
+                            <input class="input-item calendar" type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01"
+                              max="2018-12-31">
+                          </label>
+                    </div>
+                    <div class="national">
+                        <input class="input-item zip" type="text" name="code" required placeholder="Zipcode">
+                        <select class="country" id="country">
+                          <option>Country</option>
+                          <option value="ukraine">Ukraine</option>
+                          <option value="usa">USA</option>
+                          <option value="russia">Russia</option>
+                          <option value="moldova">Moldova</option>
+                        </select>
+                    </div>
+                      </div>
+                      <div class="input-list__right-side">
+                        <textarea class="input-item textarea" name="comments" id="comments" required placeholder="Your message">
+                        </textarea>
+                      </div>
+                    </div>
+                    <ul class="buttons">
+                      <li class="buttos-item">
+                        <label for="input-file" class="input-file-upload">
+                          Attach your file
+                        </label>
+                        <input id="input-file" type="file">
+                      </li>
+                      <li class="buttos-item">
+                        <button class="form-button" type="submit">Sent</button>
+                      </li>
+                    </ul>
+                  </form>
+                <!-- <ul class="input-list">
                     <li class="input-list-item">
                         <input class="input-item" type="text" name="name" required placeholder="First Name">
                     </li>
@@ -93,51 +148,59 @@
                         <li class="buttos-item">
                             <button class="form-button" type="submit">Sent</button>
                         </li>
-                    </ul>
+                    </ul> -->
             </div>
+        </div>
         </form>
-        <footer class="container">
+        <footer>
+            <div  class="container">
+                <div class="footer-text">
+                    <p>rem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <p>rem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <p>rem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </div>
             <div class="footer-logo"><a href="#">
                 <img class="footer-logo-img" src="./images/Logo.png" alt="logo">
             </a>
-            </div>
+           
             <ul class="footer-social">
                 <li class="footer-social-item">
-                    <a class="facebook" href="#">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="instagram" href="#">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="telegram" href="#">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="link" href="#">
-                        <svg>
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="twitter" href="#">
+                    <a class="footer-social-item-link facebook" href="https://uk-ua.facebook.com/">
                         <svg>
                             <use href="./images/sprite.svg#icon-F"></use>
                         </svg>
                     </a>
                 </li>
+                <li class="footer-social-item">
+                    <a class="footer-social-item-link instagram" target="_blank" href="https://www.instagram.com/?hl=ru">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-in"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a class="footer-social-item-link telegram" target="_blank" href="https://telegram.org/">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-inst"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a class="footer-social-item-link link" target="_blank" href="https://www.linkedin.com/">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-Telegram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a class="footer-social-item-link twitter" target="_blank" href="https://twitter.com/explore">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-tw"></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
+        </div>
             <div class="footer-menu">
             <ul class="footer-menu-list">
                 <li class="footer-menu-item">Terms of service</li>
@@ -145,8 +208,9 @@
                 <li class="footer-menu-item">Privacy policy</li>
                 <li class="footer-menu-item">Sitemap</li>
             </ul>
-            <p class="footer-text">2020 All rights reserved.</p>
+            <p class="footer-about">2020 All rights reserved.</p>
         </div>
+    </div>
         </footer>
       </body>
    
