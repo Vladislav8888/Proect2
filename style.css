@@ -212,12 +212,6 @@ width: 210px;
     resize: none;
 }
 
-/* .input-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 31px;
-} */
-
 .form-button {
   display: block;
   width: 250px;
@@ -313,15 +307,6 @@ input[type="file"] {
   line-height: 1.2;
 }
 
-/* .input-file {
-  width: 250px;
-  height: 35px;
-  border: 1px dashed rgb(204, 204, 204);
-  border-radius: 2px;
-  background-color: rgb(255, 255, 255);
-  margin-top: 7px;
-  text-align: center;
-} */
 
 .buttons {
   text-align: center;
@@ -351,58 +336,6 @@ footer {
   height: 20px;
   fill: #888;
 }
-
-/* .facebooc::before {
-  content: "";
-  display: block;
-  background-image: url(./images/F.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 13px;
-  height: 20px;
-}
-
-.instagram::before {
-  content: "";
-  display: block;
-  background-image: url(./images/inst.svg);
-  fill: #888;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 20px;
-  height: 20px;
-}
-
-.telegram::before {
-  content: "";
-  display: block;
-  background-image: url(./images/Shape\ 698.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 20px;
-  height: 20px;
-}
-
-.link::before {
-  content: "";
-  display: block;
-  background-image: url(./images/in.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 20px;
-  height: 20px;
-}
-
-.twitter::before {
-  content: "";
-  display: block;
-  background-image: url(./images/tw.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 20px;
-  height: 20px;
-} */
-
 
 
 .footer-menu-list {
